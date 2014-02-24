@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:text="電話番号を入力してください"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    />
+    
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+    />
+    
+    <Button 
+   		android:text="　O　K　"     
+   		android:layout_height="wrap_content"
+   		android:layout_width="fill_parent"
+   		android:onClick="onClick_OKButton"
+    />
+
+</LinearLayout>
